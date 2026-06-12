@@ -353,50 +353,6 @@ kill -9 <PID>
 9. Implement audit logging
 10. Database backup strategy
 
-## 📈 Deployment Guide
-
-### Deploy Backend to Heroku
-```bash
-# Install Heroku CLI and login
-heroku login
-
-# Create Heroku app
-heroku create your-loan-app
-
-# Set environment variables
-heroku config:set MONGODB_URI=<your_mongodb_uri>
-heroku config:set JWT_SECRET=<your_secret>
-heroku config:set NODE_ENV=production
-
-# Deploy
-git push heroku main
-```
-
-### Deploy Frontend to Vercel
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel --prod
-
-# Update API base URL in frontend
-# Change baseURL in services/api.js to your backend URL
-```
-
-### Deploy Frontend to GitHub Pages
-```bash
-# Add to package.json
-"homepage": "https://yourusername.github.io/loan-checker",
-
-# Build
-npm run build
-
-# Deploy
-npm install --save-dev gh-pages
-npm run deploy
-```
-
 ## 📚 Additional Resources
 
 - [Express.js Documentation](https://expressjs.com/)
