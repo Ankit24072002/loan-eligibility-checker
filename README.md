@@ -440,11 +440,10 @@ Contributions are welcome! To contribute:
 
 MIT License - feel free to use this project for personal or commercial purposes.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with React, Node.js, Express, and MongoDB
 - Designed with modern UI/UX principles
 - Inspired by real-world lending systems
-- Thanks to the open-source community
 
 
