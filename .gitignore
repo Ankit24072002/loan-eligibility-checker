@@ -1,0 +1,45 @@
+# Environment Variables (NEVER COMMIT THESE)
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Lock files (optional - remove if you want to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
