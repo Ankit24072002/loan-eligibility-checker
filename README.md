@@ -432,9 +432,9 @@ Contributions are welcome! To contribute:
 ## 👨‍💻 Author
 
 **Ankit Kumar Singh**
-- GitHub: [Your GitHub Profile]
-- Email: [Your Email]
-- Portfolio: [Your Portfolio]
+- GitHub: [https://github.com/Ankit24072002]
+- Email: [kumaranikant24@gmail.com]
+- Portfolio: [https://self-portfolio-if15.onrender.com/]
 
 ## 📄 License
 
